@@ -9,6 +9,7 @@
     neovim
     emacs-gtk
     git
+    ganttproject-bin
 
     ############################################
     # Office Tools
@@ -29,6 +30,8 @@
     # Graphics
     ############################################
     gimp
+    kdePackages.kdenlive
+    blender
 
     ############################################
     # Internet
@@ -46,8 +49,6 @@
     rclone
     hunspell
     hunspellDicts.en_US
-    libwacom
-    libwacom-surface
 
     ############################################
     # Social
@@ -70,6 +71,5 @@
     #  Games
     ############################################
     prismlauncher
-
   ];
  }

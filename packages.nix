@@ -32,6 +32,7 @@
     gimp
     kdePackages.kdenlive
     blender
+    krita
 
     ############################################
     # Internet

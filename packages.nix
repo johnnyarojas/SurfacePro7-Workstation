@@ -65,8 +65,8 @@
     gnomeExtensions.grand-theft-focus
     gnomeExtensions.blur-my-shell
     gnomeExtensions.just-perfection
-    gnomeExtensions.screen-rotate
     gnomeExtensions.vitals
+    gnomeExtensions.screen-rotate
 
     ############################################
     #  Games

@@ -6,7 +6,6 @@
     # Devloper Tools
     ############################################
     vim
-    neovim
     emacs-gtk
     git
     ganttproject-bin
@@ -73,4 +72,4 @@
     ############################################
     prismlauncher
   ];
- }
+}

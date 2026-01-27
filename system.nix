@@ -4,21 +4,23 @@
   ############################################
   #  Boot + Kernel
   ############################################
-  boot.loader.grub = {
+  boot.loader.systemd-boot = {
     enable = true;
-    efiSupport = true;
-    device = "nodev";
+    editor = false;   # no interactive editing
   };
-  boot.loader.grub.timeout = 0;
-  boot.loader.grub.timeoutStyle = "hidden";
-  boot.loader.efi.canTouchEfiVariables = true; # Allows NixOS to manage EFI variables
 
-  ############################################
-  # Plymouth (Boot Animation)
-  ############################################
-  boot.plymouth.enable = true;
-  boot.initrd.systemd.enable = true;
-  boot.kernelParams = [ "quiet" "splash" ];
+  boot.loader.timeout = 0;  # menu only if Space is pressed
+  boot.loader.efi.canTouchEfiVariables = true;
+
+  boot.plymouth = {
+    enable = true;
+    theme = "hexagon_dots_alt";
+    themePackages = with pkgs; [
+      (adi1090x-plymouth-themes.override {
+        selected_themes = [ "hexagon_dots_alt" ];
+      })
+    ];
+  };
 
   ############################################
   #  Hostname & Networking

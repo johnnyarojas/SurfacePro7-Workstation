@@ -6,9 +6,13 @@
     # Devloper Tools
     ############################################
     vim
-    emacs-gtk
     git
     ganttproject-bin
+    bat
+    mdr
+    glow
+    cmatrix
+    terminal-toys
 
     ############################################
     # Office Tools
@@ -32,6 +36,7 @@
     kdePackages.kdenlive
     blender
     krita
+    imagemagick
 
     ############################################
     # Internet
@@ -71,5 +76,10 @@
     #  Games
     ############################################
     prismlauncher
+
+    ############################################
+    # Fonts
+    ############################################
+    nerd-fonts.fira-code
   ];
 }

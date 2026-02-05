@@ -17,6 +17,11 @@
     '';
   };
 
+  programs.emacs = {
+    enable = true;          # Manage Emacs
+    package = pkgs.emacs;   # Choose your Emacs variant
+  };
+
   home.packages = with pkgs; [
     (
       python311.withPackages (pythonPackages: [

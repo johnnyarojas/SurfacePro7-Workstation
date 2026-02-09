@@ -21,6 +21,7 @@
     lyx
     rnote
     texlive.combined.scheme-full
+    qalculate-gtk
 
     ############################################
     # Music

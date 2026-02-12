@@ -83,5 +83,6 @@
     # Fonts
     ############################################
     nerd-fonts.fira-code
+    lmodern
   ];
 }

@@ -29,6 +29,7 @@
     youtube-music
     musescore
     muse-sounds-manager
+    synthesia
 
     ############################################
     # Graphics

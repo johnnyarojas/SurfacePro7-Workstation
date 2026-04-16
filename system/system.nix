@@ -4,6 +4,8 @@
   ############################################
   #  Boot + Kernel
   ############################################
+  hardware.microsoft-surface.kernelVersion = "stable";
+
   boot.loader.systemd-boot = {
     enable = true;
     editor = false;   # no interactive editing

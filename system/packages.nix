@@ -29,6 +29,7 @@
     youtube-music
     musescore
     muse-sounds-manager
+    audacity
 
     ############################################
     # Graphics
@@ -38,6 +39,7 @@
     blender
     krita
     imagemagick
+    obs-studio
 
     ############################################
     # Internet

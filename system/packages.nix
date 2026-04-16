@@ -85,7 +85,10 @@
     ############################################
     # Fonts
     ############################################
-    nerd-fonts.fira-code
+    nerd-fonts.fira-code # <- Added for support for doom
     lmodern
+    pixel-code
+    jetbrains-mono
+    newcomputermodern
   ];
 }

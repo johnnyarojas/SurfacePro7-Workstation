@@ -13,6 +13,7 @@
     glow
     cmatrix
     terminal-toys
+    gnumake
 
     ############################################
     # Office Tools

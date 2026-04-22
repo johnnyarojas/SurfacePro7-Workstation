@@ -14,6 +14,9 @@
     cmatrix
     terminal-toys
     gnumake
+    pyright # A Python Language Server > https://github.com/microsoft/pyright
+    nixd    # A Nix Language Server > https://github.com/nix-community/nixd
+    direnv  # Enviroment Loader
 
     ############################################
     # Office Tools
@@ -58,6 +61,7 @@
     rclone
     hunspell
     hunspellDicts.en_US
+    hunspellDicts.es-pe
     deskflow
 
     ############################################
